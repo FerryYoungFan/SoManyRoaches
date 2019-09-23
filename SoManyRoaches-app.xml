@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+  <id>com.FanSeline.SoManyRoaches</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>SoManyRoaches</filename>
+  <description>SoManyRoaches By @FanKetchup / @FerryYoungFan</description>
+  <name>SoManyRoaches</name>
+  <copyright>FanSeline</copyright>
+  <initialWindow>
+    <content>SoManyRoaches.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>false</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>auto</renderMode>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <icon>
+    <image16x16>Source_iconPack/icon_Desktop_16x16.png</image16x16>
+    <image32x32>Source_iconPack/icon_Desktop_32x32.png</image32x32>
+    <image48x48>Source_iconPack/icon_Desktop_48x48.png</image48x48>
+    <image128x128>Source_iconPack/icon_Desktop_128x128.png</image128x128>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <supportedProfiles>desktop extendedDesktop </supportedProfiles>
+</application>
